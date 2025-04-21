@@ -21,12 +21,16 @@ body {
   color: var(--primary-text-color);
   letter-spacing: -0.04em;
 }
+/* HOME */
 .logo {
   font-size: 21px;
   font-family: var(--font-logo);
   color: var(--title-text-color);
 }
-.nav-item:nth-child(1) {
+.nav-item:hover {
+  color: var(--subtitle-text-color);
+}
+.nav-link.active {
   color: var(--title-text-color);
 }
 .action-item:nth-child(2) {
@@ -84,4 +88,11 @@ body {
 }
 .footer-privacy {
   font-size: 12px;
+}
+/* TEXBOOK */
+.settings-item:nth-child(1) {
+  color: var(--pink-text-color);
+}
+.settings-item:nth-child(2) {
+  color: var(--accent-text-color);
 }

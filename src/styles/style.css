@@ -20,6 +20,7 @@ body {
   line-height: 1.4;
   color: var(--primary-text-color);
   letter-spacing: -0.04em;
+  background-color: var(--background-color);
 }
 /* HOME */
 .logo {
@@ -89,10 +90,96 @@ body {
 .footer-privacy {
   font-size: 12px;
 }
-/* TEXBOOK */
+/* TEXTBOOK */
 .settings-item:nth-child(1) {
   color: var(--pink-text-color);
 }
 .settings-item:nth-child(2) {
   color: var(--accent-text-color);
+}
+.english-level.active {
+  color: var(--title-text-color);
+  font-family: var(--font-logo);
+}
+.english-level {
+  font-family: var(--font-logo);
+  color: var(--primary-text-color);
+}
+.english-button {
+  border: none;
+  background-color: var(--background-color);
+}
+.english-text.active {
+  color: var(--background-white-color);
+  background-color: #639b6d;
+  font-size: 12px;
+  padding: 4px 8px;
+  width: 43px;
+  height: 25px;
+  border-radius: 4px;
+}
+.english-text.green {
+  color: #639b6d;
+  background-color: rgba(99, 155, 109, 0.3);
+
+  font-size: 12px;
+  padding: 4px 8px;
+  width: 43px;
+  height: 25px;
+  border-radius: 4px;
+}
+.english-text.yellow {
+  color: #c4a24c;
+  background-color: rgba(196, 162, 76, 0.3);
+  font-size: 12px;
+  padding: 4px 8px;
+  width: 43px;
+  height: 25px;
+  border-radius: 4px;
+}
+.english-text.red {
+  color: #cb5b43;
+  background-color: rgba(203, 91, 67, 0.3);
+  font-size: 12px;
+  padding: 4px 8px;
+  width: 43px;
+  height: 25px;
+  border-radius: 4px;
+}
+.card-word {
+  color: var(--title-text-color);
+  font-family: var(--font-logo);
+  font-size: 32px;
+}
+.card-sinonim {
+  color: var(--primary-text-color);
+  font-family: var(--font-logo);
+  font-size: 32px;
+}
+.card-spelling {
+  color: var(--title-text-color);
+  font-size: 18px;
+}
+.card-example {
+  font-weight: 500;
+  color: var(--title-text-color);
+}
+.card-text {
+  font-weight: 500;
+}
+.pagination-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--accent-text-color);
+  color: var(--accent-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 14px 17px;
+  width: 44px;
+  height: 44px;
+}
+.pagination-text {
+  font-size: 18px;
 }

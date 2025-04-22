@@ -91,12 +91,23 @@ body {
   font-size: 12px;
 }
 /* TEXTBOOK */
+.settings{
+  background-color: var(--background-white-color);
+  max-width: 1180px;
+  border-radius: 14px;
+}
+.settings-logo{
+  font-family: var(--font-logo);
+  font-size: 26px;
+  color: var(--title-text-color);
+}
 .settings-item:nth-child(1) {
   color: var(--pink-text-color);
 }
 .settings-item:nth-child(2) {
   color: var(--accent-text-color);
 }
+
 .english-level.active {
   color: var(--title-text-color);
   font-family: var(--font-logo);
@@ -146,6 +157,11 @@ body {
   height: 25px;
   border-radius: 4px;
 }
+.dictionary-card{
+  background-color: var(--background-white-color);
+  max-width: 926px;
+border-radius: 14px;
+}
 .card-word {
   color: var(--title-text-color);
   font-family: var(--font-logo);
@@ -182,4 +198,17 @@ body {
 }
 .pagination-text {
   font-size: 18px;
+}
+
+.statistic-photo {
+  background-color: var(--background-white-color);
+  max-width: 932px;
+  min-height: 511px;
+  border-radius: 14px;
+}
+.progress{
+  background-color: var(--background-white-color);
+  max-width: 582px;
+ 
+  border-radius: 14px;
 }

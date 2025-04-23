@@ -50,53 +50,78 @@
         </nav>
       </div>
     </header>
-    <main>
-      <section>
-        <div>
-          <h3>For the day</h3>
-          <h3>For all the time</h3>
-          <div class="progress">
-            <h2>Today's statistics</h2>
-            <p>Your statistics on all activities</p>
-            <ul>
-              <li><p>words studied</p></li>
-              <li><p>correct answers</p></li>
-            </ul>
-            <div>
-              <h4>Sprint</h4>
-              <a href="#">speed task</a>
-            </div>
-
-            <ul>
-              <li>
-                <p><span>0</span> words studied</p>
+    <main class="main">
+      <section class="activity">
+        <div class="container activity-container">
+          <h3 class="activity-period active">For the day</h3>
+          <h3 class="activity-period">For all the time</h3>
+          <div class="activity-statistic">
+            <h2 class="statistic-title">Today's statistics</h2>
+            <p class="statistic-img">Your statistics on all activities</p>
+            <ul class="statistic-list">
+              <li class="statistic-item">
+                <p class="statistic-text">words studied</p>
               </li>
-              <li>
-                <p><span>0%</span> correct answers</p>
-              </li>
-              <li>
-                <p><span>0</span> best series of correct answers</p>
+              <li class="statistic-item">
+                <p class="statistic-text">correct answers</p>
               </li>
             </ul>
 
-            <div>
-              <h4>Audio-Call</h4>
-              <a href="#">audition task</a>
+            <div class="statistic-tasks">
+              <div class="tasks-head">
+                <h4 class="tasks-name">Sprint</h4>
+                <a href="#" class="tasks-link">speed task</a>
+              </div>
+
+              <ul class="tasks-list">
+                <li class="tasks-item">
+                  <p class="tasks-text">
+                    <span class="tasks-span">0</span> words studied
+                  </p>
+                </li>
+                <li class="tasks-item">
+                  <p class="tasks-text">
+                    <span class="tasks-span">0%</span> correct answers
+                  </p>
+                </li>
+                <li class="tasks-item">
+                  <p class="tasks-text">
+                    <span class="tasks-span">0</span> best series of correct
+                    answers
+                  </p>
+                </li>
+              </ul>
+
+              <div class="tasks-head">
+                <h4 class="tasks-name">Audio-Call</h4>
+                <a href="#" class="tasks-link">audition task</a>
+              </div>
+              <ul class="tasks-list">
+                <li class="tasks-item">
+                  <p class="tasks-text">
+                    <span class="tasks-span">0</span> words studied
+                  </p>
+                </li>
+                <li class="tasks-item">
+                  <p class="tasks-text">
+                    <span class="tasks-span">0%</span> correct answers
+                  </p>
+                </li>
+                <li class="tasks-item">
+                  <p class="tasks-text">
+                    <span class="tasks-span">0</span> best series of correct
+                    answers
+                  </p>
+                </li>
+              </ul>
             </div>
-            <ul>
-              <li>
-                <p><span>0</span> words studied</p>
-              </li>
-              <li>
-                <p><span>0%</span> correct answers</p>
-              </li>
-              <li>
-                <p><span>0</span> best series of correct answers</p>
-              </li>
-            </ul>
-          </div>
-          <div class="statistic-photo">
-            <img src="../img/statistic.webp" alt="statistic" />
+            <div class="activity-photo">
+              <img
+                src="../img/statistic.webp"
+                class="action-img"
+                alt="statistic"
+              />
+            </div>
           </div>
         </div>
       </section>

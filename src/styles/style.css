@@ -91,12 +91,12 @@ body {
   font-size: 12px;
 }
 /* TEXTBOOK */
-.settings{
+.settings {
   background-color: var(--background-white-color);
   max-width: 1180px;
   border-radius: 14px;
 }
-.settings-logo{
+.settings-logo {
   font-family: var(--font-logo);
   font-size: 26px;
   color: var(--title-text-color);
@@ -157,10 +157,10 @@ body {
   height: 25px;
   border-radius: 4px;
 }
-.dictionary-card{
+.dictionary-card {
   background-color: var(--background-white-color);
   max-width: 926px;
-border-radius: 14px;
+  border-radius: 14px;
 }
 .card-word {
   color: var(--title-text-color);
@@ -199,16 +199,50 @@ border-radius: 14px;
 .pagination-text {
   font-size: 18px;
 }
+.activity {
+  background-color: var(--background-white-color);
+  max-width: 582px;
+  border-radius: 14px;
+}
+.activity-period.active {
+  font-family: var(--font-logo);
+  color: var(--title-text-color);
+  font-size: 26px;
+}
+.activity-period {
+  font-family: var(--font-logo);
 
-.statistic-photo {
+  font-size: 26px;
+}
+.statistic-title {
+  font-size: 32px;
+  font-family: var(--font-logo);
+  color: var(--title-text-color);
+}
+.tasks-name {
+  font-family: var(--font-logo);
+  color: var(--title-text-color);
+  font-size: 26px;
+}
+.tasks-link {
+  font-size: 12px;
+  color: var(--accent-text-color);
+  border-radius: 6px;
+  padding: 4px 8px;
+  max-width: 79px;
+  max-height: 25px;
+  background-color: #c3dce3;
+}
+.tasks-text {
+  font-size: 14px;
+}
+.tasks-span {
+  color: var(--title-text-color);
+  font-weight: 700;
+}
+.activity-img {
   background-color: var(--background-white-color);
   max-width: 932px;
   min-height: 511px;
-  border-radius: 14px;
-}
-.progress{
-  background-color: var(--background-white-color);
-  max-width: 582px;
- 
   border-radius: 14px;
 }

@@ -18,38 +18,47 @@
     <link rel="stylesheet" href="../styles/style.css" />
   </head>
   <body>
-    <!-- HEADER -->
-    <header class="header">
-      <div class="container header-container">
-        <a href="#" class="logo">GlobalTalk</a>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="/index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="./textbook.html" class="nav-link">Textbook</a>
-            </li>
-            <li class="nav-item">
-              <a href="./statistic.html" class="nav-link active">Statistics</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Games</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header-action">
-          <ul class="action-list">
-            <li class="action-item">
-              <a href="#" class="action-link">Alex</a>
-            </li>
-            <li class="action-item">
-              <a href="#" class="action-link">Sign Out</a>
-            </li>
-          </ul>
-        </div>
+   <!-- HEADER -->
+   <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo">GlobalTalk</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link ">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./textbook.html" class="nav-link">Textbook</a>
+          </li>
+          <li class="nav-item">
+            <a href="./statistic.html" class="nav-link active"
+              >Statistics</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link nav-link-games">Games</a>
+            <ul class="submenu">
+              <li class="submenu-item">Sprint</li>
+              <li class="submenu-item">Audio-call</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-action">
+        <ul class="action-list">
+          <li class="action-item">
+            <a href="#" class="action-account"
+              ><span class="alex-span">A</span>Alex</a
+            >
+          </li>
+          <li class="action-item">
+            <a href="#" class="action-link">Sign Out</a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </header>
+
     <main class="main">
       <section class="activity">
         <div class="container activity-container">
@@ -129,73 +138,80 @@
         </div>
       </section>
     </main>
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="container footer-container">
-        <div class="footer-globaltalk">
-          <ul class="globaltalk-list">
-            <li class="globaltalk-item">
-              <a href="/index.html" class="globaltalk-link">Home</a>
-            </li>
-            <li class="globaltalk-item">
-              <a href="./textbook.html" class="globaltalk-link">Textbook</a>
-            </li>
-            <li class="globaltalk-item">
-              <a href="./statistic.html" class="globaltalk-link">Statistics</a>
-            </li>
-            <li class="globaltalk-item">
-              <a href="#" class="globaltalk-link">Sprint</a>
-            </li>
-            <li class="globaltalk-item">
-              <a href="#" class="globaltalk-link">Audio-call</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-pages">
-          <ul class="pages-list">
-            <li class="pages-item">
-              <a href="https://github.com/" class="pages-link" target="_blank"
-                ><img src="../img/cat.webp" class="pages-img" alt="Cat"
-              /></a>
-            </li>
-            <li class="pages-item">
-              <a
-                href="https://www.google.com/aclk?sa=l&ai=DChcSEwjk4ZXEr-eMAxWRUZEFHeAyCtIYABADGgJscg&co=1&gclid=Cj0KCQjwtpLABhC7ARIsALBOCVrhEOe754ce5L87O6yTEqz6RTvklb9gTclDMcNg3bvQAr5N1scDqlgaAjI5EALw_wcB&sig=AOD64_24gHfMk2IK1VunePHWxIbCebPfag&q&adurl&ved=2ahUKEwiXkJHEr-eMAxWGgSoKHcjuCeoQ0Qx6BAgKEAE"
-                class="pages-link"
-                target="_blank"
-                ><img src="../img/gt.webp" class="pages-img" alt="GT"
-              /></a>
-            </li>
-            <li class="pages-item">
-              <a
-                href="https://www.youtube.com/?app=desktop&gl=UA&hl=uk"
-                class="pages-link"
-                target="_blank"
-              >
-                <img
-                  src="../img/youtube.webp"
-                  class="pages-img"
-                  alt="Youtube"
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-accounts">
-          <ul class="accounts-list">
-            <li class="accounts-item">
-              <a href="#" class="accounts-link">Alex</a>
-            </li>
-            <li class="accounts-item">
-              <a href="#" class="accounts-link">Gabriel</a>
-            </li>
-            <li class="accounts-item">
-              <a href="#" class="accounts-link">Marcus</a>
-            </li>
-          </ul>
-        </div>
-        <p class="footer-privacy">©2021 GlobalTalk. Project for GlobalTalk.</p>
-      </div>
-    </footer>
-  </body>
+ <!-- FOOTER -->
+ <footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-globaltalk">
+      <ul class="globaltalk-list">
+        <li class="globaltalk-item">
+          <a href="/index.html" class="globaltalk-link">Home</a>
+        </li>
+        <li class="globaltalk-item">
+          <a href="./src/pages/textbook.html" class="globaltalk-link"
+            >Textbook</a
+          >
+        </li>
+        <li class="globaltalk-item">
+          <a href="./src/pages/statistic.html" class="globaltalk-link"
+            >Statistics</a
+          >
+        </li>
+        <li class="globaltalk-item">
+          <a href="#" class="globaltalk-link">Sprint</a>
+        </li>
+        <li class="globaltalk-item">
+          <a href="#" class="globaltalk-link">Audio-call</a>
+        </li>
+      </ul>
+
+      <ul class="pages-list">
+        <li class="pages-item">
+          <a href="https://github.com/" class="pages-link" target="_blank"
+            ><img src="../img/cat.webp" class="pages-img" alt="Cat"
+          /></a>
+        </li>
+        <li class="pages-item">
+          <a
+            href="https://www.google.com/aclk?sa=l&ai=DChcSEwjk4ZXEr-eMAxWRUZEFHeAyCtIYABADGgJscg&co=1&gclid=Cj0KCQjwtpLABhC7ARIsALBOCVrhEOe754ce5L87O6yTEqz6RTvklb9gTclDMcNg3bvQAr5N1scDqlgaAjI5EALw_wcB&sig=AOD64_24gHfMk2IK1VunePHWxIbCebPfag&q&adurl&ved=2ahUKEwiXkJHEr-eMAxWGgSoKHcjuCeoQ0Qx6BAgKEAE"
+            class="pages-link"
+            target="_blank"
+            ><img src="../img/gt.webp" class="pages-img" alt="GT"
+          /></a>
+        </li>
+        <li class="pages-item">
+          <a
+            href="https://www.youtube.com/?app=desktop&gl=UA&hl=uk"
+            class="pages-link"
+            target="_blank"
+          >
+            <img
+              src="../img/youtube.webp"
+              class="pages-img"
+              alt="Youtube"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-accounts">
+      <ul class="accounts-list">
+        <li class="accounts-item">
+          <a href="#" class="accounts-link">Alex</a>
+        </li>
+        <li class="accounts-item">
+          <a href="#" class="accounts-link">Gabriel</a>
+        </li>
+        <li class="accounts-item">
+          <a href="#" class="accounts-link">Marcus</a>
+        </li>
+      </ul>
+
+      <p class="footer-privacy">
+        ©2021 GlobalTalk. Project for
+        <span class="logo-span">GlobalTalk</span>.
+      </p>
+    </div>
+  </div>
+</footer>
+</body>
 </html>

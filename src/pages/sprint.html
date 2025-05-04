@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Statistic</title>
+    <title>Games</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,17 +32,17 @@
                   <a href="./textbook.html" class="nav-link">Textbook</a>
                 </li>
                 <li class="nav-item">
-                  <a href="./statistic.html" class="nav-link active">Statistics</a>
+                  <a href="./statistic.html" class="nav-link ">Statistics</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link nav-link-games">Games</a>
+                  <a href="#" class="nav-link nav-link-games active">Games</a>
                   <ul class="submenu">
                     <li class="submenu-item">
-                        <a href="./sprint.html" class="submenu-link">Sprint</a>
-                      </li>
-                      <li class="submenu-item">
-                        <a href="./audiocall.html" class="submenu-link">Audio-call</a>
-                      </li>
+                      <a href="/src/pages/sprint.html" class="submenu-link">Sprint</a>
+                    </li>
+                    <li class="submenu-item">
+                      <a href="/src/pages/audiocall.html" class="submenu-link">Audio-call</a>
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -63,95 +63,39 @@
         </div>
       </div>
     </header>
-
     <main class="main">
-      <section class="activity">
-        <div class="container activity-container">
-          <div class="activity-titles">
-            <a href="./statistic.html" class="activity-period">For the day</a>
-            <a href="./statictic2.html" class="activity-period second"
-              >For all the time</a
-            >
-          </div>
-
-          <div class="activity-statistic">
-            <h2 class="statistic-title">Today's statistics</h2>
-            <p class="statistic-img">Your statistics on all activities</p>
-            <ul class="statistic-list">
-              <li class="statistic-item">
-                <h2 class="statistic-number">
-                  10 <span class="statistic-span">+</span>
-                </h2>
-                <p class="statistic-text">words studied</p>
+      <section class="game">
+        <div class="game-container">
+          <h2>Sprint</h2>
+          <a href="./sprint.html" class="tasks-link">speed task</a>
+          <p>
+            Trains the skill of fast translation. You have to choose if the
+            translation corresponds to the suggested word.
+          </p>
+          <p>Choose a level:</p>
+          <nav class="pagination-level" aria-label="Pagination">
+            <ul class="pagination-level-list">
+              <li class="pagination-level-item">
+                <button class="pagination-level-button green">A1</button>
               </li>
-              <li class="statistic-item">
-                <h2 class="statistic-number">
-                  43 <span class="statistic-span">%</span>
-                </h2>
-                <p class="statistic-text">correct answers</p>
+              <li class="pagination-level-item">
+                <button class="pagination-level-button yellow">A2</button>
+              </li>
+              <li class="pagination-level-item">
+                <button class="pagination-level-button red">B1</button>
+              </li>
+              <li class="pagination-level-item">
+                <button class="pagination-level-button brown">B2</button>
+              </li>
+              <li class="pagination-level-item">
+                <button class="pagination-level-button purple">C1</button>
+              </li>
+              <li class="pagination-level-item">
+                <button class="pagination-level-button blue">C2</button>
               </li>
             </ul>
-
-            <div class="statistic-tasks">
-              <div class="tasks-sprint">
-                <div class="tasks-head">
-                  <h4 class="tasks-name">Sprint</h4>
-                  <a href="#" class="tasks-link">speed task</a>
-                </div>
-
-                <ul class="tasks-list">
-                  <li class="tasks-item">
-                    <p class="tasks-text">
-                      <span class="tasks-span">5</span> words studied
-                    </p>
-                  </li>
-                  <li class="tasks-item">
-                    <p class="tasks-text">
-                      <span class="tasks-span">90%</span> correct answers
-                    </p>
-                  </li>
-                  <li class="tasks-item">
-                    <p class="tasks-text">
-                      <span class="tasks-span">7</span> best series of correct
-                      answers
-                    </p>
-                  </li>
-                </ul>
-              </div>
-              <div class="tasks-call">
-                <div class="tasks-head">
-                  <h4 class="tasks-name">Audio-Call</h4>
-                  <a href="#" class="tasks-link">audition task</a>
-                </div>
-                <ul class="tasks-list">
-                  <li class="tasks-item">
-                    <p class="tasks-text">
-                      <span class="tasks-span">5</span> words studied
-                    </p>
-                  </li>
-                  <li class="tasks-item">
-                    <p class="tasks-text">
-                      <span class="tasks-span">97%</span> correct answers
-                    </p>
-                  </li>
-                  <li class="tasks-item">
-                    <p class="tasks-text">
-                      <span class="tasks-span">7</span> best series of correct
-                      answers
-                    </p>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="activity-photo">
-                <img
-                  src="../img/statistic2.jpg"
-                  class="activity-img"
-                  alt="statistic"
-                />
-              </div>
-            </div>
-          </div>
+          </nav>
+          <a href="#" class="game-start">Get started</a>
         </div>
       </section>
     </main>

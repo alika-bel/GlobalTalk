@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GlobalTalk</title>
+    <title>Textbook</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,7 +12,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/style.css" />
@@ -21,27 +21,36 @@
     <!-- HEADER -->
     <header class="header">
       <div class="container header-container">
-        <a href="#" class="logo">GlobalTalk</a>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="/index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="./textbook.html" class="nav-link active">Textbook</a>
-            </li>
-            <li class="nav-item">
-              <a href="./statistic.html" class="nav-link">Statistics</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link nav-link-games">Games</a>
-              <ul class="submenu">
-                <li class="submenu-item">Sprint</li>
-                <li class="submenu-item">Audio-call</li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-nav">
+          <a href="/index.html" class="logo">GlobalTalk</a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="/index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./textbook.html" class="nav-link active">Textbook</a>
+              </li>
+              <li class="nav-item">
+                <a href="./statistic.html" class="nav-link">Statistics</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-link-games">Games</a>
+                <ul class="submenu">
+                  <li class="submenu-item">
+                    <a href="./sprint.html" class="submenu-link">Sprint</a>
+                  </li>
+                  <li class="submenu-item">
+                    <a href="./audiocall.html" class="submenu-link"
+                      >Audio-call</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
         <div class="header-action">
           <ul class="action-list">
             <li class="action-item">
@@ -69,12 +78,9 @@
               <a href="#" class="settings-link call">Audio-call</a>
             </li>
             <li class="settings-item">
-              <a href="#" class="settings-link setting"
-                ><img
-                  src="../img/settings.svg"
-                  class="settings-img"
-                  alt="settings"
-              /></a>
+              <button class="settings-link setting">
+               
+              </button>
             </li>
           </ul>
         </div>
@@ -349,7 +355,7 @@
 
           <ul class="pages-list">
             <li class="pages-item">
-              <a href="https://github.com/" class="pages-link" target="_blank"
+              <a href="/index.html" class="pages-link" target="_blank"
                 ><img src="../img/cat.webp" class="pages-img" alt="Cat"
               /></a>
             </li>

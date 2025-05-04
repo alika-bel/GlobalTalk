@@ -12,7 +12,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/style.css" />
@@ -21,29 +21,42 @@
     <!-- HEADER -->
     <header class="header">
       <div class="container header-container">
-        <a href="#" class="logo">GlobalTalk</a>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="/index.html" class="nav-link active">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="./src/pages/textbook.html" class="nav-link">Textbook</a>
-            </li>
-            <li class="nav-item">
-              <a href="./src/pages/statistic.html" class="nav-link"
-                >Statistics</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link nav-link-games">Games</a>
-              <ul class="submenu">
-                <li class="submenu-item">Sprint</li>
-                <li class="submenu-item">Audio-call</li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-nav">
+          <a href="./index.html" class="logo">GlobalTalk</a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./src/pages/textbook.html" class="nav-link"
+                  >Textbook</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="./src/pages/statistic.html" class="nav-link"
+                  >Statistics</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-link-games">Games</a>
+                <ul class="submenu">
+                  <li class="submenu-item">
+                    <a href="./src/pages/sprint.html" class="submenu-link"
+                      >Sprint</a
+                    >
+                  </li>
+                  <li class="submenu-item">
+                    <a href="./src/pages/audiocall.html" class="submenu-link"
+                      >Audio-call</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
         <div class="header-action">
           <ul class="action-list">
             <li class="action-item">
@@ -68,7 +81,7 @@
           <p class="hero-text text">
             Practice your English and learn new things with the platform.
           </p>
-          <a href="#" class="hero-link">About platform</a>
+          <a href="#games" class="hero-link">About platform</a>
           <div class="hero-advantages">
             <ul class="advantages-list">
               <li class="advantages-item">
@@ -82,7 +95,7 @@
         </div>
       </section>
       <!-- GAMES -->
-      <section class="games">
+      <section class="games" id="games">
         <div class="container games-container">
           <div class="games-photo">
             <img
@@ -117,7 +130,9 @@
             <p class="vocabulary-text text">
               Traditional and new effective approaches to word study
             </p>
-            <a href="./src/pages/textbook.html" class="vocabulary-link link">Textbook</a>
+            <a href="./src/pages/textbook.html" class="vocabulary-link link"
+              >Textbook</a
+            >
           </div>
           <div class="vocabulary-photo">
             <img
@@ -143,7 +158,9 @@
             <p class="progress-text text">
               Save statistics on your achievements, words learned, and mistakes
             </p>
-            <a href="./src/pages/statistic.html" class="progress-link link">Statistics</a>
+            <a href="./src/pages/statistic.html" class="progress-link link"
+              >Statistics</a
+            >
           </div>
         </div>
       </section>
@@ -177,7 +194,7 @@
 
           <ul class="pages-list">
             <li class="pages-item">
-              <a href="https://github.com/" class="pages-link" target="_blank"
+              <a href="./index.html" class="pages-link" target="_blank"
                 ><img src="./src/img/cat.webp" class="pages-img" alt="Cat"
               /></a>
             </li>

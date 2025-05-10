@@ -22,33 +22,37 @@
     <header class="header">
       <div class="container header-container">
         <div class="header-nav">
-            <a href="/index.html" class="logo">GlobalTalk</a>
-            <nav class="nav">
-              <ul class="nav-list">
-                <li class="nav-item">
-                  <a href="/index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./textbook.html" class="nav-link">Textbook</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./statistic.html" class="nav-link ">Statistics</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link nav-link-games active">Games</a>
-                  <ul class="submenu">
-                    <li class="submenu-item">
-                      <a href="/src/pages/sprint.html" class="submenu-link">Sprint</a>
-                    </li>
-                    <li class="submenu-item">
-                      <a href="/src/pages/audiocall.html" class="submenu-link">Audio-call</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
+          <a href="/index.html" class="logo">GlobalTalk</a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="/index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="./textbook.html" class="nav-link">Textbook</a>
+              </li>
+              <li class="nav-item">
+                <a href="./statistic.html" class="nav-link">Statistics</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link nav-link-games active">Games</a>
+                <ul class="submenu">
+                  <li class="submenu-item">
+                    <a href="/src/pages/sprint.html" class="submenu-link"
+                      >Sprint</a
+                    >
+                  </li>
+                  <li class="submenu-item">
+                    <a href="/src/pages/audiocall.html" class="submenu-link"
+                      >Audio-call</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
         </div>
-        
+
         <div class="header-action">
           <ul class="action-list">
             <li class="action-item">
@@ -65,15 +69,18 @@
     </header>
     <main class="main">
       <section class="game">
-        <div class="game-container">
-          <h2>Sprint</h2>
-          <a href="./sprint.html" class="tasks-link">speed task</a>
-          <p>
+        <div class="game-sprint-container">
+          <div class="game-group">
+            <h2 class="game-title">Sprint</h2>
+            <a href="./sprint.html" class="game-link">speed task</a>
+          </div>
+         
+          <p class="game-text">
             Trains the skill of fast translation. You have to choose if the
             translation corresponds to the suggested word.
           </p>
-          <p>Choose a level:</p>
-          <nav class="pagination-level" aria-label="Pagination">
+          <p class="game-text-level">Choose a level:</p>
+          <div class="pagination-level" aria-label="Pagination">
             <ul class="pagination-level-list">
               <li class="pagination-level-item">
                 <button class="pagination-level-button green">A1</button>
@@ -94,7 +101,7 @@
                 <button class="pagination-level-button blue">C2</button>
               </li>
             </ul>
-          </nav>
+          </div>
           <a href="#" class="game-start">Get started</a>
         </div>
       </section>

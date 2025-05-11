@@ -465,7 +465,8 @@ body {
 }
 
 .progress {
-  padding: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
   background-color: var(--background-white-color);
 }
 .progress-container {
@@ -751,7 +752,7 @@ body {
 }
 .dictionary-item:nth-child(odd)::before {
   content: "";
-  background-image: url(../img/school.jpg);
+  background-image: url(../img/school.webp);
   width: 380px;
   height: 250px;
   background-position: center;
@@ -759,7 +760,7 @@ body {
   border-radius: 14px 14px 0px 0px;
 }
 .dictionary-item:nth-child(even)::before {
-  background-image: url(../img/pianio.jpg);
+  background-image: url(../img/pianio.webp);
   content: "";
 
   width: 380px;
@@ -914,22 +915,40 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.activity-container{
+  max-width: 1555px;
+}
+ 
 
 .activity-content {
   display: flex;
   gap: 10px;
-  width: 100%;
+ 
 }
 .activity-statistic {
   display: flex;
   flex-direction: column;
   border-radius: 14px;
   padding: 40px;
+  flex-grow: 1;
 
-  width: 582px;
+  max-width: 582px;
 
   background-color: var(--background-white-color);
   box-shadow: 0 23px 46px -11px rgba(52, 41, 39, 0.08);
+}
+.activity-photo {
+  box-shadow: 0 23px 46px -11px rgba(52, 41, 39, 0.08);
+  border-radius: 14px;
+  padding: 20px 40px;
+
+  flex-grow: 1;
+  background-color: var(--background-white-color);
+}
+.activity-img {
+
+
+ 
 }
 .activity-titles {
   display: flex;
@@ -990,6 +1009,7 @@ body {
   gap: 160px;
  justify-content: center;
 margin-bottom: 20px;
+
 }
 .statistic-item {
   display: flex;
@@ -1017,7 +1037,7 @@ margin-bottom: 20px;
   content: "";
   width: 70px;
   height: 112px;
-  background-image: url(../img/image\ 30.png);
+  background-image: url(../img/sprint-small.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -1043,7 +1063,7 @@ margin-bottom: 20px;
   content: "";
   width: 70px;
   height: 112px;
-  background-image: url(../img/image\ 29.png);
+  background-image: url(../img/audio-small.webp);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -1097,19 +1117,7 @@ margin-bottom: 20px;
 .tasks-head {
   margin-bottom: 16px;
 }
-.activity-photo {
-  box-shadow: 0 23px 46px -11px rgba(52, 41, 39, 0.08);
-  border-radius: 14px;
-  padding: 20px 40px;
 
-  flex: 1;
-  background-color: var(--background-white-color);
-}
-.activity-img {
-  max-width: 100%;
-
-  height: auto;
-}
 .game {
   display: flex;
   justify-content: center;
@@ -1132,7 +1140,7 @@ margin-bottom: 20px;
 }
 .game-sprint-container::before {
   content: "";
-  background-image: url(../img/sprint-bigpng.png);
+  background-image: url(../img/sprint-big.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--background-white-color);
@@ -1160,7 +1168,7 @@ margin-bottom: 20px;
 }
 .game-audio-container::before {
   content: "";
-  background-image: url(../img/audio-big.png);
+  background-image: url(../img/audio-big.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--background-white-color);

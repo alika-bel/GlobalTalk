@@ -27,6 +27,14 @@ body {
   margin-inline: auto;
   padding-inline: 15px;
 }
+.footer-icons{
+  width: 25px;
+  height: 20px;
+  fill: #BABABA;
+  &:hover{
+    fill: #333333;
+  }
+}
 /* HOME=================================================================== */
 .header {
   padding-top: 24px;
